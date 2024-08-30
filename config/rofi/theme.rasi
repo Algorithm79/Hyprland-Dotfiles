@@ -1,6 +1,6 @@
 // Global //
 * {
-	foreground:                  #D9E0EE80; //Text
+	foreground:                  #a9b1d680; //Text
 	normal-foreground:           @foreground;
 	urgent-foreground:           #11111bff; //Crust
 	active-foreground:           #11111bff; //Crust
@@ -13,18 +13,18 @@
 	selected-urgent-foreground:  #11111bff; //Crust
 	selected-active-foreground:  #11111bff; //Crust
 
-	background:                  #1E1D2F80;
+	background:                  #00000080;
 	normal-background:           @background;
-	urgent-background:           #F28FAD80; 
-	active-background:           #ABE9B380;
+	urgent-background:           #00000080;
+	active-background:           #00000080;
 
 	alternate-normal-background: @normal-background;
 	alternate-urgent-background: @urgent-background;
 	alternate-active-background: @active-background;
 
 	selected-normal-background:  #7AA2F780; 
-	selected-urgent-background:  #F28FAD80;
-	selected-active-background:  #ABE9B380;
+	selected-urgent-background:  #f7768e80;
+	selected-active-background:  #7aa2f780;
 
 	separatorcolor:              transparent;
     border-color:                transparent;
